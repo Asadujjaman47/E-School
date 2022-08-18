@@ -112,3 +112,63 @@
  .card-text {
      color: #585859;
  }
+
+ /* course section  */
+ .card {
+     border: none;
+     box-shadow: 5px 5px 10px lightgray;
+     text-align: center;
+     border-radius: 10px;
+     padding: 12px;
+ }
+
+ .card-footer {
+     background-color: white;
+     border-top: none;
+ }
+
+ .course-head {
+     text-align: center;
+     color: #413960;
+     font-weight: 700;
+     padding: 50px 0;
+ }
+
+ .course-title {
+     text-align: left;
+ }
+
+ /* testimonial section  */
+ #others {
+     padding: 20px;
+     margin-bottom: 100px;
+ }
+
+ .test-head {
+     text-align: center;
+     color: #000000;
+     font-weight: 700;
+     padding: 50px 0;
+ }
+
+ .test-img {
+     width: 35%;
+ }
+
+ /* footer section  */
+ #footer {
+     background-color: #282531;
+     padding: 20px;
+     color: #ffffff;
+ }
+
+ .footpara p {
+     font-size: 13px;
+     margin-bottom: 0;
+ }
+
+ .copyright {
+     margin-bottom: 0;
+     padding-bottom: 20px;
+     text-align: center;
+ }
