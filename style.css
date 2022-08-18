@@ -1,0 +1,63 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: sans-serif;
+ }
+
+ #nav-bar {
+     position: sticky;
+     top: 0;
+     z-index: 10;
+ }
+
+ .navbar {
+     background-color: rgb(207, 235, 232);
+     padding: 0 !important;
+ }
+
+ .navbar-brand img {
+     height: 40px;
+     padding-left: 40px;
+ }
+
+ .navbar-nav li {
+     padding: 0 1rem;
+ }
+
+ .navbar-nav li a {
+     color: #000000 !important;
+     font-weight: 600;
+     float: right;
+     text-align: center;
+ }
+
+ .btn {
+     background-image: linear-gradient(to left, #37d28d, #21b573);
+     padding: 5px 20px;
+     border-radius: 20px;
+     color: #ffffff;
+     border: none;
+ }
+
+ .btn a {
+     color: #ffffff;
+     text-decoration: none;
+ }
+
+ .btn:hover {
+     background-color: #faaf3a;
+     transition: 2s ease;
+     color: #000000;
+ }
+
+ .fas fa-bars {
+     color: #000000;
+     font-size: 3rem !important;
+ }
+
+ .navbar-toggler {
+     outline: none !important;
+ }
